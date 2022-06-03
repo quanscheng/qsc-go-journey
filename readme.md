@@ -1,7 +1,13 @@
 # qsc-go-journey
 
-create a .go file
+1. go run main.go
 
-fill code 
+`hello world`
 
-go run main.go
+2. package
+
+go mod init project-name
+
+```
++ go.mod 
+```
