@@ -1,13 +1,8 @@
 # qsc-go-journey
 
-1. go run main.go
+- 分支说明:
 
-`hello world`
+master: hello world
 
-2. package
-
-go mod init project-name
-
-```
-+ go.mod 
-```
+1. package: 初识包管理
+2. data-type: 数据类型
