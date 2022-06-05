@@ -1,6 +1,11 @@
 package user
 
-// function name () type of returnValue { ... return value }
+// 在 Go 中，如果一个名字以大写字母开头，那么它就是已导出的。
+// 未以大写字母开头，所以它们是未导出的。
+// 在导入一个包时，你只能引用其中已导出的名字。
+// 任何“未导出”的名字在该包外均无法访问。
+
+// 此函数大写字母开头: 自动导出了,或者可以理解为全局函数
 func Hello() string {
 	return "hello"
 }
