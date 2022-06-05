@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
-	"qsc-go-journey/user"
 )
 
-func main() { // `entry` : main function with main package
-	s := user.Sum(4, 5) // user.Hello().var! 回车 就可以快捷生成变量
-	fmt.Printf("s: %v\n", s)
+func swap(x, y string) (string, string) {
+	return y, x
+}
+
+func main() {
+	a, b := swap("传参一", "传参二")
+	fmt.Println(a, b)
 }
